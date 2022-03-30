@@ -7,9 +7,6 @@ Se requiere una aplicación web para la gestión de una pequeña comunidad, dond
 * Los usuarios podrán crear posts
 * Los usuarios podrán dar like a los posts de otros usuarios
 
-#### Out of Scope (casos de uso No Soportados)
-* Un usuario no registrado no podrá crear posts ni ver los posts
-* Un usuario sólo podrá crear, actualizar y eliminar posts relacionados a su cuenta
 ---
 ## Arquitectura
 
