@@ -23,5 +23,40 @@ Se conformará por 4 entidades:
 ![Diagrama físico](diagrama_fisico.svg)
 ---
 ### Estructura de directorio
-
-...
+```
+.
+├── api
+│   └── index.js
+├── components
+│   ├── likes
+│   │   ├── controller.js
+│   │   └── network.js
+│   ├── posts
+│   │   ├── controller.js
+│   │   └── network.js
+│   └── users
+│       ├── controller.js
+│       └── network.js
+├── config.js
+├── diagrama_fisico.svg
+├── docker-compose.yml
+├── LICENSE
+├── middleware
+│   ├── error_handler
+│   │   ├── customError.js
+│   │   └── index.js
+│   └── log_error
+│       └── index.js
+├── network
+│   ├── response.js
+│   └── router.js
+├── package.json
+├── package-lock.json
+├── postgres_data
+├── readme.md
+└── storage
+    ├── likes.js
+    ├── postgresql.js
+    ├── posts.js
+    └── users.js
+```
